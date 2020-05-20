@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lyhman.github.io/</id>
     <title>刘宇辉</title>
-    <updated>2020-05-20T13:29:15.484Z</updated>
+    <updated>2020-05-20T13:41:42.140Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lyhman.github.io/"/>
     <link rel="self" href="https://lyhman.github.io/atom.xml"/>
@@ -10,14 +10,4 @@
     <logo>https://lyhman.github.io/images/avatar.png</logo>
     <icon>https://lyhman.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 刘宇辉</rights>
-    <entry>
-        <title type="html"><![CDATA[2020.5.20 每日计划]]></title>
-        <id>https://lyhman.github.io/post/2020520-mei-ri-ji-hua/</id>
-        <link href="https://lyhman.github.io/post/2020520-mei-ri-ji-hua/">
-        </link>
-        <updated>2020-05-20T13:04:37.000Z</updated>
-        <content type="html"><![CDATA[<p>每日坚果✅<br>
-五谷磨坊✅</p>
-]]></content>
-    </entry>
 </feed>
