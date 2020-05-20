@@ -1,145 +1,60 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
-
-<title>标签列表 | 刘宇辉の小窝</title>
-<meta name="description" content="刘宇辉の小窝">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="http://lyhman.github.io//favicon.ico?v=1589966559881">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="http://lyhman.github.io//styles/main.css">
-
-
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-  </head>
-  <body>
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="http://lyhman.github.io/">刘宇辉の小窝</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
-        
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/archives" class="menu">
-                归档
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
-        
-      </ul>
+<head>
+<!-- 必要参数 -->
+<meta charset="utf-8"/>
+<title>刘宇辉の小窝</title>
+<meta name="keywords" content="关键词"/>
+<meta name="description" content="简述"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable:no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="shortcut icon" href="favicon.ico">
+<!-- CSS -->
+<link rel="stylesheet" href="http://lyhman.github.io//media/css/mdui.min.css">
+<link rel="stylesheet" href="http://lyhman.github.io//media/css/modify.css">
+</head>
+<body>
+<body class="mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-blue mdui-theme-layout-dark">
+<header role="banner">
+    <div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-shadow-0">
+        <div class="mdui-toolbar">
+            <button class="mdui-btn mdui-btn-icon" id="menu" mdui-drawer="{target:'#drawer',overlay:true,swipe:true}"><i class="mdui-icon material-icons">menu</i></button>
+            <a href="http://lyhman.github.io/" class="mdui-typo-headline">刘宇辉の小窝</a>
+            <div class="mdui-toolbar-spacer"></div>
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '深色样式切换', position: 'left'}" id="DarkStyle"><i class="mdui-icon material-icons">brightness_4</i></button>
+        </div>
     </div>
-  </div>
+</header>
+
+<nav id="drawer" class="mdui-drawer mdui-drawer-full-height mdui-drawer-close">
+    <ul class="mdui-list">
+        <a href="/" class="menu"><li class="mdui-list-item mdui-ripple">首页</li></a>
+        <a href="/archives" class="menu"><li class="mdui-list-item mdui-ripple">归档</li></a>
+        <a href="/tags" class="menu"><li class="mdui-list-item mdui-ripple">标签</li></a>
+        <a href="/post/about" class="menu"><li class="mdui-list-item mdui-ripple">关于</li></a>
+        
+        <a href="https://github.com/CPlayer-CN/gridea-theme-cplayer-material" class="spread"><li class="mdui-list-item mdui-ripple">主题主页</li></a>
+    </ul>
 </nav>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="row tags-container">
-            
-          </div>
+
+<main class="mdui-container mdui-m-t-2">
+    <div class="mdui-card">
+        <div class="mdui-card-primary">
+            <div class="mdui-card-primary-title">标签列表</div>
         </div>
-      </div>
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="http://lyhman.github.io//images/avatar.png?v=1589966559881" class="no-responsive avatar">
-    <div class="text-muted">刘宇辉の小窝</div>
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
+        <div class="mdui-card-actions">
+            
+        </div>
     </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-    </div>
-  </div>
-  <div class="paper">
-     | <a class="rss" href="http://lyhman.github.io//atom.xml" target="_blank">RSS</a>
-  </div>
+</main>
+
+<div class="mdui-m-t-2 mdui-text-center mdui-typo">
+    
 </div>
-  
-    </div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="http://lyhman.github.io//media/js/jquery.min.js"></script>
+<script src="http://lyhman.github.io//media/js/mdui.min.js"></script>
+<script src="http://lyhman.github.io//media/js/modify.js"></script>
 
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
-</script>
-
-
-
-
-  </body>
+</body>
 </html>
